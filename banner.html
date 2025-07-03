@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subscription Plans - Baycarl Editing Services</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .plan-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
 <div class="container py-5">
@@ -13,7 +20,8 @@
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
         <!-- Essential Plan -->
         <div class="col">
-            <div class="card border-warning">
+            <div class="card plan-card border-warning">
+                <img src="https://via.placeholder.com/400x200.png?text=Essential+Plan" alt="Essential Plan Thumbnail">
                 <div class="card-header bg-warning text-dark text-center">
                     <h3>The Essential Plan</h3>
                     <h4>$99/month</h4>
@@ -26,14 +34,17 @@
                         <li>1 revision per task</li>
                         <li>Turnaround: 48–72 hours</li>
                     </ul>
-                    <button class="btn btn-warning w-100">Sign Up</button>
+                </div>
+                <div class="card-footer text-center">
+                    <button class="btn btn-warning">Sign Up</button>
                 </div>
             </div>
         </div>
 
         <!-- Pro Boost Plan -->
         <div class="col">
-            <div class="card border-primary">
+            <div class="card plan-card border-primary">
+                <img src="https://via.placeholder.com/400x200.png?text=Pro+Boost+Plan" alt="Pro Boost Plan Thumbnail">
                 <div class="card-header bg-primary text-white text-center">
                     <h3>The Pro Boost Plan</h3>
                     <h4>$199/month</h4>
@@ -47,14 +58,17 @@
                         <li>Priority support</li>
                         <li>Turnaround: 24–48 hours</li>
                     </ul>
-                    <button class="btn btn-primary w-100">Sign Up</button>
+                </div>
+                <div class="card-footer text-center">
+                    <button class="btn btn-primary">Sign Up</button>
                 </div>
             </div>
         </div>
 
         <!-- Brand Builder Plan -->
         <div class="col">
-            <div class="card border-purple">
+            <div class="card plan-card border-purple">
+                <img src="https://via.placeholder.com/400x200.png?text=Brand+Builder+Plan" alt="Brand Builder Plan Thumbnail">
                 <div class="card-header text-white text-center" style="background-color: purple;">
                     <h3>The Brand Builder Plan</h3>
                     <h4>$350/month</h4>
@@ -70,14 +84,17 @@
                         <li>Unlimited minor revisions</li>
                         <li>Turnaround: 24 hours</li>
                     </ul>
-                    <button class="btn w-100 text-white" style="background-color: purple;">Sign Up</button>
+                </div>
+                <div class="card-footer text-center">
+                    <button class="btn text-white" style="background-color: purple;">Sign Up</button>
                 </div>
             </div>
         </div>
 
         <!-- Content Plug Plan -->
         <div class="col">
-            <div class="card border-danger">
+            <div class="card plan-card border-danger">
+                <img src="https://via.placeholder.com/400x200.png?text=Content+Plug+Plan" alt="Content Plug Plan Thumbnail">
                 <div class="card-header bg-danger text-white text-center">
                     <h3>The Content Plug Plan</h3>
                     <h4>$499/month</h4>
@@ -93,7 +110,9 @@
                         <li>Same-day delivery (express tasks)</li>
                         <li>Unlimited revisions</li>
                     </ul>
-                    <button class="btn btn-danger w-100">Sign Up</button>
+                </div>
+                <div class="card-footer text-center">
+                    <button class="btn btn-danger">Sign Up</button>
                 </div>
             </div>
         </div>
